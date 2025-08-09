@@ -1,0 +1,15 @@
+[package]
+name = "Time-locked_Governance"
+version = "1.0.0"
+authors = []
+
+[addresses]
+SendMessage = "3c5fbe73a0f9664df9a08e37c64e8d867bf0d8adb94426304a7a0cc4df1e5ea2"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
